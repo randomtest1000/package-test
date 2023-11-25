@@ -13,4 +13,4 @@ jobs:
           curl -X DELETE \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/users/randomtest1000/package-test/container/package-test%2fpackage
+            https://api.github.com/users/randomtest1000/container/package-test%2fpackage
